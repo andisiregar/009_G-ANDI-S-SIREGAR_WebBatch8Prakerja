@@ -1,0 +1,12 @@
+1. HTML
+2. Form
+	belajar Tag HTML Lainnya :
+	a. Memuat Gambar <img, ../,/>
+	b. Membuat Link <a href, >
+	c. Heading / Penjudulan <h1 judul utama, h2 -h6 untuk sub>
+	d. Membuat Daftar List
+	e. Memahami Tag <div>
+	f. Memahami Form
+	g. Memahami Tabel
+3. Layout
+4. Portofolio Sederhana

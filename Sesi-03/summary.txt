@@ -1,0 +1,51 @@
+1. css
+2. background (background)
+3. Margin & Padding
+   
+   Margin:
+   1. Margin-top
+   2. Margin-bottom
+   3. Margin-left
+   4. Margin-right
+
+   Padding:
+   1. Margin-top
+   2. Margin-bottom
+   3. Margin-left
+   4. Margin-right
+4. font
+   merubah font, mengatur ukuran font, 
+   warna font serta jenis bentuk font(garis miring, huruf tebal, tulisan miring).
+   - font-size
+   - font-weight
+   - font-family
+   - font-style
+   - font-color
+5. Link/Hyperlink
+   - link
+   - visited
+   - hover
+   - active
+6. Format Text
+   - color
+   - text-align
+   - text-decoration
+   - text-transform
+   - text-indent
+   - text-spacing
+   - text-height
+   - text-shadow
+   - vetical-align
+7. posisition css
+   - static
+   - relative
+   - fixed
+   - absolute
+8. border css (mengubah ukuran, warna, dan gaya atau bentuk pada border.)
+9. List CSS(angka, titik, angka romawi dan lainnya)
+10.
+
+
+
+https://git-scm.com/downloads
+pilih standalone installer 64 bit
