@@ -9,4 +9,7 @@
 	f. Memahami Form
 	g. Memahami Tabel
 3. Layout
+   - Inline dan Block
+   - Inline Elements
+   - Block Elements
 4. Portofolio Sederhana

@@ -48,9 +48,11 @@
    - klik kanan di folder reposiroty shift+klik kanan mouse pilih git bash
    - klo udh di direktori git (project yg terhubung ke git)
      bisa lakukan ini
+     - ls -la
      - git add .
      - git commit -m "update"
      - git push
+     - git push --set-upstream origin master
 
 
 

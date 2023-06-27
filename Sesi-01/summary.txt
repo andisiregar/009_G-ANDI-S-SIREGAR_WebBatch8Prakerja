@@ -1,0 +1,4 @@
+1. Front end developver (User Interface, Desain UI/UX,input pengguna divalidasi, coding dan troubleshooting)
+2. Back end developver (PHP, MySQL, Java, dan lain-lain)
+3. Web Browser
+4. Visual Studio Code(instalasi)

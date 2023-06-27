@@ -1,0 +1,15 @@
+1. Mengenal Algoritma
+   
+   Kriteria Algoritma
+   - Ada input dan output
+   - Efektifitas dan efisien
+   - Terstruktur
+
+   Simbol-simbol Flowchart
+   - Flow Direction Symbols (simbol penghubung  alur)
+   - Processing Symbols (simbol proses)
+   - Input-Output Symbols (simbol input-output)
+
+2. PSEUDOCODE
+
+3. Conditional Consept
