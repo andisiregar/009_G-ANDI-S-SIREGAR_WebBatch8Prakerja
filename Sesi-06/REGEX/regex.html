@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Regex</title>
+</head>
+<body>
+    <h1>Belajar Regex</h1>
+
+    <script>
+// // step 1
+// var foo = /ab+c/;
+
+// console.log(foo); //Regex
+// console.log(typeof foo);  //objeck
+
+// //step 2
+// var bar = new RegExp("ab+c");
+// console.log(bar)//Regex
+// console.log(typeof bar)//objeck
+
+////////////////////////////////
+// //step 3
+// var foo = Belajar Javascript";
+// var polo = /Javascript/;
+
+// console.log(polo.test(foo)); // true
+// console.log(/Belajar/.test(foo)); // true
+// console.log(/Belajar/.test(foo)); // false
+
+// //step 4
+var foo = "1 jam sama dengan 60 menit, sama dengan 360 detik, 1 jam =3600 detik";
+var pola = /\d+/g;
+
+//dengan menggunakan flag g
+//digunakan untuk mencari semua "digit/angka"
+
+console.log(pola.exec(foo)); //Array ["1"]
+console.log(pola.exec(foo)); //Array ["60"]
+console.log(pola.exec(foo)); //Array ["3600"]
+console.log(pola.exec(foo)); //null
+console.log(pola.exec(foo));
+
+///////////////////////////////////
+
+// // var pola = /[abcde]../
+// var pola = /[a-z, 0-9]../
+// console.log(pola.test("abaa"));//true
+// console.log(pola.test("faa"));//false
+// console.log(pola.test("1dd"));//false
+// console.log(pola.test("dda"));//true
+// console.log(pola.test("dd"));//false
+// console.log(pola.test("belajar"));//true
+
+</script>
+
+</body>
+</html>

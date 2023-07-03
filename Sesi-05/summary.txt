@@ -1,0 +1,37 @@
+JAVASCRIPT :
+
+1.Penggunaan Javascript
+INTERNAL
+EXTERNAL
+
+2. Variabel JS (let)
+
+3.Tipe Data
+ Ada beberapa tipe data dalam pemrograman Javascript:
+
+  Integer atau Number (bilangan bulat) 
+  String (teks)
+  Boolean
+  Object
+4.Operator Aritmatika
+
+5. Function
+   Fungsi adalah sub-program yang bisa digunakan kembali baik di dalam program itu sendiri, maupun di program yang lain.
+
+6. Event
+   Event pada Javascript adalah bagian dari elemen HTML berisi serangkaian event yang dapat memicu JavaScript.
+
+EXTRAS
+
+Javascript Output
+
+Ada 4 cara menampilkan output pada Javascript:
+
+Menggunakan Fungsi console.log();
+
+Menggunakan Fungsi alert();
+
+Menggunakan Fungsi document.write();
+
+Menggunakan innerHTML.
+

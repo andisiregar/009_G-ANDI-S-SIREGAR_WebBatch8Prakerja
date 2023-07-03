@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hitung Mundur Maju </h1>
+    <hr>
+    <button id="mundur "onclick="mundur()">Mundur</button>
+    <button id="maju "onclick="maju()">Maju</button>
+    
+   
+    <div id="hasil"></div>
+    
+    <script>
+        var hasil = document.getElementById("hasil");
+        var count = "";
+        hasil.innerText=count;
+        function mundur(){
+            count = count - 1;
+            hasil.innerText =count;
+        }
+
+        function maju(){
+            count = count + 1;
+            hasil.innerText=count;
+        }
+    </script>
+</body>
+</html>

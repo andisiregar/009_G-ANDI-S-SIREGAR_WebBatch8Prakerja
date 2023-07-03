@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Latihan</title>
+  </head>
+  <body>
+    <!-- 
+              <label for="">Input:</label>
+        <input type="text" id="nama" />
+        <br>
+        <label for="">Berapa Kali:</label>
+        <input type="number" id="berapakali" />
+        <br>
+
+
+        <button type="button" onclick="cetak()">Cetak!</button>
+
+        <ol >
+            <li id="demo"></li>
+        </ol>
+
+
+        <script>
+        let nama = "";
+        let berapakali = "berapakali";
+        while (i)
+            nama +="<br>nama" + berapakali;
+            berapakali++;
+        function cetak() {
+            var nama = document.getElementById("nama").value ;
+            document.getElementById("demo").innerHTML = "<b>" + berapakali+"</b>";
+            document.getElementById("demo").innerHTML = "<b>" + nama +"</b>";
+            
+        }
+     -->
+    <label for="">Input:</label>
+    <input type="text" id="nama" placeholder="Please input nama" />
+    <br />
+
+    <label for="">Berapa Kali:</label>
+    <input type="number" id="berapakali" placeholder="Please input angka" />
+    <br />
+
+    <button type="button" onclick="cetak()">Cetak!</button>
+
+    <ol id="demo"></ol>
+
+    <script>
+      function cetak() {
+        let demo = document.getElementById("demo");
+        demo.innerHTML = "";
+        let nama = document.getElementById("nama").value;
+        let kali = parseInt(document.getElementById("berapakali").value);
+        for (let i = 0; i < kali; i++) {
+          document.getElementById("demo").innerHTML += "<li>" + nama + "</li>";
+        }
+      }
+    </script>
+  </body>
+</html>

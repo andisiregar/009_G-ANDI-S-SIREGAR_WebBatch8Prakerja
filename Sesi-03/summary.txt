@@ -54,6 +54,11 @@
      - git push
      - git push --set-upstream origin master
 
+Penjelasan:
+
+git add = untuk memiliih file yang akan dimasukan ke github (kalau pilih semua: " git add . " )
+git commit = untuk memberi commit/pesan git remote = alamat untuk memasukan ke github
+git push = untuk ngepush semuanya ke github klik enter dan lihat project kamu sudah terupload ke Github
 
 
 

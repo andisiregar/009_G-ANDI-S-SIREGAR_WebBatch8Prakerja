@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Function di Javascript</title>
+</head>
+<body>
+    <h1>Menghitung Grade</h1>
+    <script>
+        function hitunggrade(nilai) {
+            let grade ="B"
+            if (nilai > 98){
+                grade = "A";
+            }
+            return grade + "<br>";
+        }
+        document.write(hitunggrade())
+        function hitunggrade(nilai){
+            if (nilai > 98){
+                return"A";
+            } else if (nilai > 80)
+                return"B";
+            } else if (nilai > 70)
+                return"C";
+            } else if (nilai > 60)
+                return"D";
+            } else {
+                return "E";
+            }
+        }
+    </script>
+</body>
+</html>

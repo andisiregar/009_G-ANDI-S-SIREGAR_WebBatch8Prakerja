@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplikasi Ubah Warna</title>
+</head>
+<body>
+    <h1>Aplikasi Ubah Warna</h1>
+
+    <label for="">Warna Latar</label>
+    <input type="color" id="bg-color">
+    <br>
+
+    <label for="">Warna Text</label>
+    <input type="color" id=text-color">
+    <br>
+
+    <script>
+        let bgcolor = document.getElementById("bg-color");
+        let textcolor = document.getElementById("text-color");
+
+        bgcolor.addEventListener("change", function (){
+            document.body.style.backgroundColor = bgcolor.value;
+            console.log("perubahan  warna background : " + bgcolor.value);
+        });
+
+        textcolor.addEventListener("change", function (){
+            document.body.style.color = textcolor.value;
+            console.log("perubahan warna text : " + textcolor.value);
+        });
+
+    </script>
+</body>
+</html>

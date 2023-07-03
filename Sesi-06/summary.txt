@@ -1,0 +1,9 @@
+Apabila kita ingin mengakses elemen yang spesifik, terdapat beberapa fungsi yang bisa digunakan:
+
+getElementById() fungsi untuk memilih elemen berdasarkan atribut id.
+getElementByName() fungsi untuk memilih elemen berdasarkan atribut name.
+getElementsByClassName() fungsi untuk memilih elemen berdasarkan atribut class.
+getElementsByTagName() fungsi untuk memilih elemen berdasarkan nama tag.
+getElementsByTagNameNS() fungsi untuk memilih elemen berdasarkan nama tag.
+querySelector() fungsi untuk memilih elemen berdasarkan query.
+querySelectorAll() fungsi untuk memilih elemen berdasarkan query.
